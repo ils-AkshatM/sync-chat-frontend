@@ -89,7 +89,7 @@ const Profile = () => {
               {image ? <AvatarImage
                 src={image}
                 className="bg-black w-full h-full object-cover"
-                alt='profile' />
+                alt='profileAvatar' />
                 : <div
                   className={`w-32 h-32 md:w-48 md:h-48 text-5xl flex-center uppercase font-bold border-[1px] rounded-full 
                        ${getColor(selectedColor)}`}
